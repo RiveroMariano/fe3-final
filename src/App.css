@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.favButton {
+  background-color: rgba(151, 93, 93, 0.116);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(7, 2, 39);
+}
+h5 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  color: #000;
+  border-color: #919291;
+  border: #000;
+  border-style: hidden;
+
+ 
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+a:hover {
+  color: rgb(136, 136, 136);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20%;
+  bottom: 0;
+  width: 90%;
+  height: 40px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+footer > img {
+  width: 200px;
+  margin: 0;
+
+}
+footer > p {
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+
+
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  width: 100%;
+  align-items: center;
+ 
+}
+
+.card {
+  
+    width: calc(25% - 1rem); 
+    margin: 0.5rem;
+    border: #000;
+    
+    border-style: hidden;
+
+  }
+  .card-fav{
+    display: flex;
+    justify-content:space-around; 
+    flex-wrap: wrap; 
+    margin: 0 auto;  
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 10px;
+    width: 20%; 
+    height: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    text-align: center;
+    
+  }
+  .card-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin: 0 auto;  
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 10px;
+    width: 80%; 
+    height: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    align-items: center;;
+    text-align: center;
+    
+  }
+ 
+
+.card-img {
+  width: 100%; 
+  max-height: 200px; 
+  object-fit: cover; 
+  border-radius: 5px 5px 0 0; 
+  height: 100%;
+}
+
+
+.card-content {
+  padding: 10px;
+}
+
+
+.card-title {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+
+
+.add-fav-button:hover {
+  background-color: #8ebbeb; 
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:200px;
+  width:80%;
+  height: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  
+}
+.buton-for{
+ 
+  width: 50%;
+  height: 20%;
+ text-align: center;
+ text-emphasis:inherit;
+ justify-content: center;
+ margin-left: 20px;
+  
+}
+
+
+
+
+
+
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 90%;
+  border: 1px solid #7a2121;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+td,
+th {
+  border: 1px solid #919291;
+  text-align: center;
+  padding: 5px;
+  text-align: center;
+  border-top-right-radius: 2px;
+  font-size: 12px;
+  justify-content: center;
+
+}
+
+tr:nth-child(even) {
+  background-color: #eae9e9;
+
+}
+tr{
+  width: 80%;
+  background-color: #ffffff;
+}
+
+.dark {
+  background-color: #12121296;
+  color: white;
+}
+.dark > a {
+  color: white;
+}
+
+.contact {
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  height: 100px;
+  margin-top: 100px;
+  align-items: center;
+  text-align: center;
+  
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+ 
+  font-family: inherit;
+  background-color: #b3b3b1;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  background-color: #c2d3f6;
+}
+.img-car{
+  width: 200px;
+  height: 200px;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%; 
+  }
+}
